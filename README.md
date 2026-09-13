@@ -44,6 +44,15 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 构建基础ChatBot框架
 
 
+### Day 6 - AI Agent Function Calling
+完成：
+- Agent 基础结构
+- AI 自动判断工具调用
+- Function Calling 实现
+- 自定义计算工具
+- AI + Python 工具协作
+
+
 
 ## 技术栈
 
