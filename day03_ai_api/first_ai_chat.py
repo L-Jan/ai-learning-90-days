@@ -1,24 +1,37 @@
+from dotenv import load_dotenv
+from openai import OpenAI
+import os
+
+# 读取 .env
+load_dotenv()
+
+# 创建百炼客户端
+client = OpenAI(
+    api_key=os.getenv("DASHSCOPE_API_KEY"),
+    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
+)
+
+
 def ask_ai(question):
-    """
-    模拟AI回答
-    """
+    response = client.chat.completions.create(
+        model="deepseek-v4-flash-0731",
+        messages=[
+            {
+                "role": "user",
+                "content": question
+            }
+        ]
+    )
 
-    answer = f"""
-你问的问题：
-
-{question}
-
-AI正在分析中...
-
-这是我的模拟回答：
-继续学习Python，你会成为AI开发者！
-"""
-
-    return answer
+    return response.choices[0].message.content
 
 
+# 获取用户输入
 user_input = input("请输入你的问题：")
 
-response = ask_ai(user_input)
+# 调用 AI
+answer = ask_ai(user_input)
 
-print(response)
+# 输出回答
+print("\nAI回答：")
+print(answer)
