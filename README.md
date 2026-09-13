@@ -1,13 +1,10 @@
 # AI Learning 90 Days 🚀
 
-记录我的 AI 应用开发学习过程。
+这是我的 90 天 AI 学习项目。
 
-目标：
-- 掌握 Python
-- 掌握大模型 API 调用
-- 开发 AI 小工具
-- 构建 AI 一人公司项目能力
+通过每天完成一个小项目，逐步学习：
 
+Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 
 ## 项目进度
 
@@ -31,6 +28,23 @@
 - 第一个 AI Chat 程序
 
 
+### Day 4 - Prompt Engineering
+完成：
+- Prompt 基础设计
+- AI角色设定
+- 小红书标题生成器
+
+
+### Day 5 - 多轮对话 ChatBot
+完成：
+- 对话历史管理
+- Context上下文理解
+- 多轮AI聊天程序
+- 实现连续对话
+- 构建基础ChatBot框架
+
+
+
 ## 技术栈
 
 - Python
@@ -40,9 +54,3 @@
 - DeepSeek API
 
 
-## 后续计划
-
-- Prompt 工程
-- AI Agent
-- 自动化工具开发
-- AI 产品实践
