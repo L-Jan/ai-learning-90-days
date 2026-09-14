@@ -68,6 +68,26 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 理解 AI API 的基本数据流
 
 
+### Day 8 - Structured Output / JSON结构化输出
+完成：
+- 理解 AI 结构化输出的意义
+- 理解 JSON 字符串与 Python Dictionary 的区别
+- 使用 json.loads() 将 JSON 字符串转换为 Python Dictionary
+- 使用 Dictionary Key 获取 AI 返回的数据
+- 使用 List 存储多个数据
+- 使用 for 循环遍历 AI 返回的 List
+- 实现 AI 美妆产品结构化分析
+- 获取产品类型
+- 获取目标用户
+- 获取产品评分
+- 获取产品卖点
+- 自动生成小红书选题
+- 理解 AI + Python 的结构化数据处理流程
+
+
+
+
+
 
 
 ## 技术栈
