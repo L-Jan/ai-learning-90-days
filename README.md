@@ -53,6 +53,22 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - AI + Python 工具协作
 
 
+### Day 7 - API 基础与 AI API 调用
+完成：
+- 理解 API 是程序之间沟通的接口
+- 理解 Request（请求）与 Response（响应）
+- 理解 API Key 与 base_url
+- 使用 requests 调用测试 API
+- 使用 Python 调用阿里云百炼 API
+- 理解 client 与 AI API 的通信过程
+- 理解 messages 的 List + Dictionary 结构
+- 理解 role / user / assistant / system
+- 理解 response.choices[0].message.content
+- 实现用户输入问题并获取 AI 回答
+- 理解 AI API 的基本数据流
+
+
+
 
 ## 技术栈
 
