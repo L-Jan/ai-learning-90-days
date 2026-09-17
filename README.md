@@ -85,6 +85,29 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 理解 AI + Python 的结构化数据处理流程
 
 
+### Day 9 - RAG 检索增强生成
+完成：
+- 理解 RAG（Retrieval-Augmented Generation）
+- 理解 Retrieval（检索）的作用
+- 理解企业知识库
+- 理解 RAG 基本工作流程
+- 使用 Python 模拟知识库
+- 实现简单关键词检索
+- 理解关键词检索的局限
+- 理解语义检索的需求
+- 理解 RAG 与最终企业知识工作台的关系
+
+
+### Day 10 - Embedding 向量表示
+完成：
+- 理解 Embedding 的基本概念
+- 理解文字转换为向量的过程
+- 使用阿里云百炼 Embedding API
+- 使用 text-embedding-v4 模型
+- 成功生成 1024 维 Embedding 向量
+- 理解向量与语义相似度
+- 使用 Cosine Similarity 比较文本相似度
+- 理解 Embedding 在 RAG 中的作用
 
 
 
