@@ -110,6 +110,20 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 理解 Embedding 在 RAG 中的作用
 
 
+### Day 11 - 向量数据库与最小 RAG
+完成：
+- 理解向量数据库的基本概念
+- 使用 Chroma 向量数据库
+- 创建 Collection
+- 向向量数据库添加文档
+- 使用 Embedding 生成文档向量
+- 使用 text-embedding-v4 生成查询向量
+- 将 Embedding 向量存入 Chroma
+- 根据查询向量检索相关文档
+- 理解 Context（上下文）
+- 将检索结果交给大模型
+- 实现最小 RAG 问答流程
+- 理解 RAG 的完整数据流
 
 
 
