@@ -142,6 +142,21 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 完成一个命令行企业知识库问答助手
 
 
+### Day 13 - FastAPI + RAG
+完成：
+- 学习 FastAPI 基础
+- 创建 GET API
+- 使用 query parameter 接收用户问题
+- 接入 DeepSeek 大模型
+- 接入 Embedding
+- 使用 Chroma 向量数据库进行检索
+- 将检索结果作为 Context 提供给大模型
+- 完成 RAG + FastAPI Web API
+- 测试知识库存在和不存在答案的情况
+- 理解完整的 RAG 应用数据流
+
+
+
 ## 技术栈
 
 - Python
