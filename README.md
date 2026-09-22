@@ -156,6 +156,18 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 理解完整的 RAG 应用数据流
 
 
+### Day 14 - Document RAG
+完成：
+- 学习 Python 读取外部文档
+- 将文档内容切分成 Chunks
+- 使用 Embedding 将 Chunks 转换为向量
+- 将向量和文档写入 Chroma
+- 实现用户问题 Embedding
+- 使用 Chroma 检索相关文档
+- 将检索结果作为 Context
+- 接入 DeepSeek 生成回答
+- 完成外部文档 RAG 流程
+
 
 ## 技术栈
 
