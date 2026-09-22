@@ -169,6 +169,23 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 完成外部文档 RAG 流程
 
 
+### Day 15 - RAG Chunking
+完成：
+- 理解为什么 RAG 需要进行文档切分
+- 理解 Chunk 的概念
+- 学习 Chunk Size
+- 学习 Chunk Overlap
+- 使用 Python 实现固定长度 Chunk
+- 理解 Overlap 对上下文连续性的作用
+- 理解固定长度切分的局限
+- 理解按照章节、段落、句子进行语义切分的思路
+- 理解 Chunk 大小需要在语义完整性和检索效果之间进行平衡
+- 理解 RAG 文档切分的基本原理
+
+
+
+
+
 ## 技术栈
 
 - Python
