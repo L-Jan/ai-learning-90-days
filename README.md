@@ -209,6 +209,21 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 完成 RAG 检索与生成的完整流程
 
 
+### Day 18 - RAG Similarity / Distance
+完成：
+- 理解 Similarity 与 Distance 的概念
+- 理解 Chroma 检索结果中的 distances
+- 理解 Distance 越小代表越相似
+- 获取检索结果及对应 Distance
+- 学习 Similarity Threshold（相关性阈值）
+- 根据 Distance 过滤低相关内容
+- 将过滤后的结果合并为 Context
+- 将 Context 提供给大模型生成回答
+- 理解 Top-K + Distance Filter 的 RAG 检索流程
+
+
+
+
 
 
 ## 技术栈
