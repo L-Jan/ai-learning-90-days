@@ -196,6 +196,19 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 实现返回答案依据、文件、页码和章节
 
 
+### Day 17 - RAG Top-K 检索
+完成：
+- 理解 Top-K 的概念
+- 理解 n_results 参数的作用
+- 对比 Top-K=1 和 Top-K=3 的检索结果
+- 将多个检索结果合并为 Context
+- 将 Context 提供给大模型生成回答
+- 理解 Top-K 对 RAG 回答的影响
+- 理解 Top-K 过小可能导致信息遗漏
+- 理解 Top-K 过大可能引入无关信息
+- 完成 RAG 检索与生成的完整流程
+
+
 
 
 ## 技术栈
