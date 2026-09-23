@@ -222,6 +222,36 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 理解 Top-K + Distance Filter 的 RAG 检索流程
 
 
+### Day 19 - RAG Rerank
+完成：
+- 理解 Rerank（重排序）的概念
+- 理解向量检索得到的是候选结果
+- 使用相关性分数对文档重新排序
+- 学习 zip() 绑定文档和分数
+- 学习 sorted() 和 lambda 排序
+- 理解 Top-K 与 Top-N 的区别
+- 使用切片获取 Rerank 后的 Top-N
+- 将 Top-N 结果转换为 Context
+- 将 Context 提供给大模型生成回答
+- 完成 Top-K + Rerank + Top-N + LLM 的完整流程
+
+
+### Day 20 - RAG Rerank Model
+完成：
+- 安装 DashScope Python SDK
+- 配置阿里云百炼业务空间
+- 调用 qwen3-rerank 模型
+- 理解 Rerank 模型的作用
+- 理解 index、relevance_score 和 document
+- 使用 Rerank 模型计算文档相关性
+- 实现候选文档重新排序
+- 实现 Top-N 结果截取
+- 将 Rerank 结果转换为 Context
+- 将 Context 提供给 DeepSeek
+- 完成向量检索 + Rerank + Top-N + LLM 的完整 RAG 流程
+- 通过打乱原始文档顺序验证 Rerank 的重新排序能力
+
+
 
 
 
