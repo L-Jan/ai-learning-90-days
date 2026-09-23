@@ -183,6 +183,18 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 理解 RAG 文档切分的基本原理
 
 
+### Day 16 - RAG Metadata
+完成：
+- 理解 Metadata（元数据）的概念
+- 为 Chunk 添加来源、页码、章节等信息
+- 将 Metadata 写入 Chroma 向量数据库
+- 查询向量数据时同时获取 Metadata
+- 使用 where 进行 Metadata 筛选
+- 使用 $and 实现多个条件同时筛选
+- 理解 Document 与 Metadata 的对应关系
+- 实现 RAG 检索结果的来源追踪
+- 实现返回答案依据、文件、页码和章节
+
 
 
 
