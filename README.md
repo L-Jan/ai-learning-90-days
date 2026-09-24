@@ -252,6 +252,23 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 通过打乱原始文档顺序验证 Rerank 的重新排序能力
 
 
+### Day 21 - RAG Pipeline
+完成：
+- 封装 `get_embedding()` 生成向量
+- 封装 `search_documents()` 实现 Chroma 检索
+- 封装 `rerank_documents()` 实现 Rerank
+- 封装 `generate_answer()` 生成最终回答
+- 封装 `rag_pipeline()` 串联完整流程
+- 完成 Embedding → 检索 → Rerank → LLM
+- 测试知识库有答案和无答案两种情况
+- 实现基础防幻觉回答
+#### RAG 并不是简单地把资料交给大模型，而是：
+- 将用户问题转换成向量
+- 从向量数据库中检索候选资料
+- 使用 Rerank 模型重新排序
+- 将高相关资料作为 Context
+- 交给大模型生成最终回答
+
 
 
 
