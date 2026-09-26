@@ -270,6 +270,21 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 交给大模型生成最终回答
 
 
+# Day 22 - Document Loader
+完成：
+- 实现 TXT 文档读取
+- 自动读取文件夹中的多个 TXT 文件
+- 封装 `load_document()` 和 `load_documents()`
+- 使用字典保存文档 ID、内容和 Metadata
+- 将多个文档整理成统一的数据结构
+- 将文档添加到 Chroma
+- 使用 Chroma 查询相关文档
+- 获取搜索结果和文档来源
+- 理解 Metadata 在 RAG 中的作用
+
+流程：
+TXT 文件 → Document Loader → 文档数据 → Chroma → 文档检索
+
 
 
 
