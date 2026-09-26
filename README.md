@@ -270,7 +270,7 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 - 交给大模型生成最终回答
 
 
-# Day 22 - Document Loader
+### Day 22 - Document Loader
 完成：
 - 实现 TXT 文档读取
 - 自动读取文件夹中的多个 TXT 文件
@@ -285,6 +285,19 @@ Python → 大模型 API → Prompt 工程 → AI 应用开发 → AI Agent
 流程：
 TXT 文件 → Document Loader → 文档数据 → Chroma → 文档检索
 
+
+### Day 23 - PDF Document Loader
+完成：
+- 使用 `pypdf` 读取 PDF
+- 提取 PDF 文字
+- 读取多个 PDF 文件
+- 添加文档 ID 和 Metadata
+- 将 PDF 文档添加到 Chroma
+- 使用 Chroma 搜索 PDF
+- 获取文档来源
+
+流程：
+PDF → PDF Loader → Document → Chroma → 检索
 
 
 
