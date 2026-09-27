@@ -300,6 +300,22 @@ TXT 文件 → Document Loader → 文档数据 → Chroma → 文档检索
 PDF → PDF Loader → Document → Chroma → 检索
 
 
+### Day 24 - PDF Chunk RAG
+完成：
+- 使用 `pypdf` 读取 PDF 文档
+- 将 PDF 文本切分为多个 Chunk
+- 使用 Embedding 将 Chunk 转换为向量
+- 将向量和 Metadata 保存到 Chroma
+- 使用问题向量进行 Top-K 检索
+- 获取检索结果的距离和来源信息
+- 将检索结果组成 Context
+- 调用 DeepSeek 根据 Context 回答问题
+- 测试无相关资料时的防幻觉回答
+
+流程：
+PDF → Chunk → Embedding → Chroma → Top-K → Context → LLM
+
+
 
 ## 技术栈
 
